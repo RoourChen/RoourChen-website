@@ -143,4 +143,4 @@ RoourChen-website/
 
 ## 📄 项目文件与许可
 
-全部页面代码见 [index.html](./index.html)。当前仓库未提供 `LICENSE` 文件，也未在本说明中声明开源许可证。
+全部页面代码见 [index.html](./index.html)。本项目采用 [MIT License](LICENSE)。
