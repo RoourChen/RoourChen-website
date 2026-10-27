@@ -13,7 +13,7 @@
   <title>Roour Chen · AI 产品经理</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="preload" href="assets/hero.png" as="image" fetchpriority="high">
-  <link rel="stylesheet" href="styles.css?v=20261028-contact">
+  <link rel="stylesheet" href="styles.css?v=20261028-writings">
   <script src="script.js?v=20261028-contact" defer></script>
 </head>
 <body>
@@ -32,11 +32,11 @@
   <header class="header" id="header">
     <div class="nav-wrap container">
       <a class="brand" href="#home" aria-label="RoourChen 首页"><span class="brand-mark">R<span>✧</span></span>RoourChen<span class="brand-dot">.</span></a>
-      <nav class="desktop-nav" aria-label="主导航"><a href="#home" class="active" aria-current="location">首页</a><a href="#about">关于我</a><a href="#projects">项目</a><a href="#notes">实践手记</a></nav>
+      <nav class="desktop-nav" aria-label="主导航"><a href="#home" class="active" aria-current="location">首页</a><a href="#about">关于我</a><a href="#projects">项目</a><a href="#notes">实践手记</a><a href="#writings">文章</a></nav>
       <a class="nav-contact" href="#contact"><span class="tiny-star">✧</span> 与我交流 <svg class="icon"><use href="#external"/></svg></a>
       <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="打开导航菜单"><span></span><span></span></button>
     </div>
-    <nav id="mobile-nav" class="mobile-nav" aria-label="手机导航" hidden><a href="#home">首页</a><a href="#about">关于我</a><a href="#projects">项目</a><a href="#notes">实践手记</a><a href="#contact">与我交流</a></nav>
+    <nav id="mobile-nav" class="mobile-nav" aria-label="手机导航" hidden><a href="#home">首页</a><a href="#about">关于我</a><a href="#projects">项目</a><a href="#notes">实践手记</a><a href="#writings">文章与思考</a><a href="#contact">与我交流</a></nav>
   </header>
   <main id="main">
     <section class="hero" id="home" aria-labelledby="hero-title">
@@ -70,6 +70,30 @@
       <a class="note-card" href="https://github.com/RoourChen/agent-blueprint#readme" target="_blank" rel="noopener noreferrer"><div class="note-sky note-mist" aria-hidden="true"><span>03</span><i>↗</i></div><div class="note-content"><span class="note-category">AGENT / BLUEPRINT</span><h3>把需求拆成可以执行的步骤<svg class="icon"><use href="#external"/></svg></h3><p>连接产品需求、架构与代码骨架。</p></div></a>
       <a class="note-card" href="https://github.com/RoourChen?tab=repositories" target="_blank" rel="noopener noreferrer"><div class="note-sky note-github" aria-hidden="true"><span>04</span><i><svg class="icon"><use href="#github"/></svg></i></div><div class="note-content"><span class="note-category">GITHUB / ALL REPOSITORIES</span><h3>我的 GitHub 仓库<svg class="icon"><use href="#external"/></svg></h3><p>浏览全部公开项目、工具与学习实践。</p></div></a>
     </div></section>
+    <section id="writings" class="section writings container" aria-labelledby="writings-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow section-kicker">WRITINGS &amp; THOUGHTS <span class="kicker-line"></span></p>
+          <h2 id="writings-title">文章与思考<span class="accent">。</span></h2>
+        </div>
+      </div>
+      <p class="section-intro">来自公众号「小皮蛋oxo」，记录 AI 与产品探索。</p>
+      <!-- Titles, dates, categories and summaries follow the supplied reference image. -->
+      <div class="writings-grid">
+        <a class="writing-card" href="https://mp.weixin.qq.com/s/uHqL2oXrDhmKNa0D5WEPnw" target="_blank" rel="noopener noreferrer" aria-label="阅读全文：资料都给 AI 了，为什么还是做错？（微信公众号原文，在新标签页打开）">
+          <div class="writing-meta"><span class="writing-tag">上下文工程</span><time datetime="2026-10-13">2026-10-13</time></div>
+          <h3>资料都给 AI 了，为什么还是做错？</h3>
+          <p class="writing-summary">从 AI 重复采用已撤回的方案谈起，梳理上下文、RAG、长期记忆和压缩机制，讨论怎样让模型依据当前有效的信息工作。</p>
+          <div class="writing-footer"><span class="writing-read">阅读全文 <svg class="icon" aria-hidden="true"><use href="#arrow"/></svg></span><span>微信公众号原文</span></div>
+        </a>
+        <a class="writing-card" href="https://mp.weixin.qq.com/s/8zHIWP7HDfg76vh5DX4hAA" target="_blank" rel="noopener noreferrer" aria-label="阅读全文：AI 替我干活以后，谁来检查它干得对不对？（微信公众号原文，在新标签页打开）">
+          <div class="writing-meta"><span class="writing-tag">AI 与工作</span><time datetime="2026-09-27">2026-09-27</time></div>
+          <h3>AI 替我干活以后，谁来检查它干得对不对？</h3>
+          <p class="writing-summary">AI 生成初稿之后，核实依据、检查计算和判断能否交付仍需要投入。结合研究与案例，讨论怎样把验收放回任务流程。</p>
+          <div class="writing-footer"><span class="writing-read">阅读全文 <svg class="icon" aria-hidden="true"><use href="#arrow"/></svg></span><span>微信公众号原文</span></div>
+        </a>
+      </div>
+    </section>
     <section id="contact" class="contact container" aria-labelledby="contact-title">
       <div class="contact-glow" aria-hidden="true"></div>
       <p class="eyebrow">A CONVERSATION CAN BE A BEGINNING</p>
