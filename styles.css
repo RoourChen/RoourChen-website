@@ -21,3 +21,12 @@
 .note-github>i{transform:none}
 .note-github .icon{width:58px;height:58px;stroke-width:1.2}
 @media(min-width:681px) and (max-width:1100px){.notes-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* Matching contact buttons, centered as an equal-width pair. */
+.contact-options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;width:min(540px,100%);margin-inline:auto}
+.contact-option{min-width:0}
+.contact-options .button{width:100%;border:0;cursor:pointer;line-height:1.7;white-space:nowrap;min-height:48px}
+.contact-options .contact-handle{user-select:text;overflow-wrap:anywhere}
+.contact p.copy-status{font-size:11px;line-height:1.8;min-height:20px;margin:18px 0 0;color:#d7c1eb}
+@media(max-width:540px){.contact-options{gap:14px}.contact-options .button{gap:7px;padding:10px;font-size:11px}.contact-options .button>.icon{width:15px;height:15px}.contact-platform-icon{display:none}.contact-options .contact-handle{font-size:10px}.contact p.copy-status{font-size:10px}}
+@media(max-width:360px){.contact-options{gap:10px}.contact-options .button{font-size:10px;padding:10px 6px;gap:5px}}

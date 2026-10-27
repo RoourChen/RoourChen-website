@@ -37,5 +37,15 @@
     if (!framePending) { framePending = true; window.requestAnimationFrame(updateNavigation); }
   }, { passive: true });
   document.querySelector('#year').textContent = String(new Date().getFullYear());
+  const copyWechat = document.querySelector('#copy-wechat');
+  const copyStatus = document.querySelector('#copy-status');
+  copyWechat.addEventListener('click', async () => {
+    try {
+      await navigator.clipboard.writeText(document.querySelector('#wechat-id').textContent.trim());
+      copyStatus.textContent = '微信号已复制，打开微信搜索 Rouroo_Chen 即可添加。';
+    } catch {
+      copyStatus.textContent = '暂时无法自动复制，请选中上方微信号 Rouroo_Chen 手动复制。';
+    }
+  });
   updateNavigation();
 })();
